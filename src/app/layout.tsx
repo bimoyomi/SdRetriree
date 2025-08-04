@@ -18,6 +18,40 @@ export const metadata: Metadata = {
   keywords: ["신독환경", "낙찰", "집정리", "이사정리", "청소", "무료견적"],
   authors: [{ name: "신독환경" }],
   viewport: "width=device-width, initial-scale=1",
+  
+  // Open Graph 메타데이터
+  openGraph: {
+    title: "신독환경 | 낙찰받은 집 정리 전문",
+    description: "낙찰받은 집의 남겨진 가구, 가전제품, 쓰레기까지 하루 만에 말끔히 정리해드립니다. 무료 견적 상담 가능합니다.",
+    type: "website",
+    locale: "ko_KR",
+    siteName: "신독환경",
+    images: [
+      {
+        url: "/image/before.jpg",
+        width: 1200,
+        height: 630,
+        alt: "신독환경 - 낙찰받은 집 정리 전문",
+      },
+    ],
+  },
+  
+  // Twitter Card 메타데이터
+  twitter: {
+    card: "summary_large_image",
+    title: "신독환경 | 낙찰받은 집 정리 전문",
+    description: "낙찰받은 집의 남겨진 가구, 가전제품, 쓰레기까지 하루 만에 말끔히 정리해드립니다. 무료 견적 상담 가능합니다.",
+    images: ["/image/before.jpg"],
+  },
+  
+  // 추가 메타데이터
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://sdretriree.vercel.app",
+  },
 };
 
 export default function RootLayout({
