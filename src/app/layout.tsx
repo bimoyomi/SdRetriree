@@ -13,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "신독환경 | 낙찰받은 집 정리 전문",
-  description: "낙찰받은 집의 남겨진 가구, 가전제품, 쓰레기까지 하루 만에 말끔히 정리해드립니다. 무료 견적 상담 가능합니다.",
-  keywords: ["신독환경", "낙찰", "집정리", "이사정리", "청소", "무료견적"],
+  title: "명퇴자들이 현실적으로 월 500만원 버는 방법",
+  description: "명퇴자들이 현실적으로 월 500만원 버는 방법 - 유품정리와 폐기물처리로 안정적 수익 창출 교육해드립니다",
+  keywords: ["신독환경", "낙찰", "집정리", "이사정리", "청소", "무료견적", "명퇴자", "월500만원"],
   authors: [{ name: "신독환경" }],
   viewport: "width=device-width, initial-scale=1",
   
   // Open Graph 메타데이터
   openGraph: {
-    title: "신독환경 | 낙찰받은 집 정리 전문",
-    description: "낙찰받은 집의 남겨진 가구, 가전제품, 쓰레기까지 하루 만에 말끔히 정리해드립니다. 무료 견적 상담 가능합니다.",
+    title: "명퇴자들이 현실적으로 월 500만원 버는 방법",
+    description: "명퇴자들이 현실적으로 월 500만원 버는 방법 - 유품정리와 폐기물처리로 안정적 수익 창출 교육해드립니다",
     type: "website",
     locale: "ko_KR",
     siteName: "신독환경",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: "/image/before.jpg",
         width: 1200,
         height: 630,
-        alt: "신독환경 - 낙찰받은 집 정리 전문",
+        alt: "명퇴자들이 현실적으로 월 500만원 버는 방법",
       },
     ],
   },
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   // Twitter Card 메타데이터
   twitter: {
     card: "summary_large_image",
-    title: "신독환경 | 낙찰받은 집 정리 전문",
-    description: "낙찰받은 집의 남겨진 가구, 가전제품, 쓰레기까지 하루 만에 말끔히 정리해드립니다. 무료 견적 상담 가능합니다.",
+    title: "명퇴자들이 현실적으로 월 500만원 버는 방법",
+    description: "명퇴자들이 현실적으로 월 500만원 버는 방법 - 유품정리와 폐기물처리로 안정적 수익 창출 교육해드립니다",
     images: ["/image/before.jpg"],
   },
   
