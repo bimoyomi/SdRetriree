@@ -500,7 +500,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4">신독환경</h3>
               <p className="text-gray-400 text-sm sm:text-base">
                 보이지 않는 곳에서 성실하게,<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;유품정리, 폐기물처리 전문 업체입니다.
+                유품정리, 폐기물처리 전문 업체입니다.
               </p>
             </div>
             <div>
